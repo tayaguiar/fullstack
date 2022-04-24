@@ -1,0 +1,45 @@
+body {
+  background: blueviolet;
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: 48px auto 0 auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.574);
+}
+
+div#txt p{
+  text-align: justify;
+  line-height: 26px;
+}
+
+div#img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+div#img img{
+  margin-top: 12px;
+  height: 100%;
+  width: 80%;
+  object-fit: scale-down;
+  border-radius: 50%;
+  border: solid 3pt;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
