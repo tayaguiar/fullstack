@@ -1,0 +1,28 @@
+<script>
+//Observação: Utilizar este array -> [13,23,12,45,22,48,66,100]
+const lista = [13, 23, 12, 45, 22, 48, 66, 100];
+
+for (let i = 0; i < lista.length; i++) {
+  if (i == lista.length - 1) {
+    if (lista[i] % 2 == 0) {
+      document.write(`<strong>${lista[i]}.</strong>`);
+    }
+  } else {
+    if (lista[i] % 2 == 0) {
+      document.write(`<strong>${lista[i]}, </strong>`);
+    }
+  }
+}
+    
+
+
+
+let valores = [13, 23, 12, 45, 22, 48, 66, 100];
+
+  for (let i = 0; i <= valores.length; i++) {
+    if (valores[i] % 2 === 0) {
+      document.write(`<h2>${valores[i]} É PAR</h2>`);
+    }
+  }
+
+</script>

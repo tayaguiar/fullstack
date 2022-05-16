@@ -1,0 +1,12 @@
+<script>
+    //O custo de um carro novo ao consumidor é a soma do custo de fábrica com a porcentagem do distribuidor e dos impostos (aplicados ao custo de fábrica). Supondo que o percentual do distribuidor seja de 28% e os impostos de 45%, escrever um algoritmo para ler o custo de fábrica de um carro, calcular e escrever o custo final ao consumidor.
+    const percentualDoDistribuidor = 28;
+    const impostos=45;
+    const custoDeFabrica=parseFloat(prompt("Digite o valor do custo de fábrica do carro:"));
+    const custoDoCarroNovo=impostos+percentualDoDistribuidor;
+    const custoDoCarroNovo2=custoDeFabrica*(custoDoCarroNovo/100);
+    const custoFinal=custoDeFabrica+custoDoCarroNovo2;
+    document.write(`<h1>O custo do carro novo é: R$${custoFinal}</h1>`);
+
+
+</script>

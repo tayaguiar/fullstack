@@ -1,6 +1,9 @@
 <script>
-    // Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês que nasceu).
-    const grausFahrenheit= parseFloat(prompt("Digite um valor em graus Fahreint:"));
-    const grauscelsius= (5*grausFahrenheit-160)/9;
-    document.write(`A temperatura em graus Celsius é de ${grauscelsius}ºC`);
+    //Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo).
+    let valor=parseFloat(prompt("Digite um valor: "));
+    if (valor>=0) {
+    document.write (`<h1>POSITIVO</h1>`);
+    } else {
+    document.write (`<h1>NEGATIVO</h1>`);
+    }
 </script>
