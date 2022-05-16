@@ -1,28 +1,16 @@
 <script>
-//Observação: Utilizar este array -> [13,23,12,45,22,48,66,100]
-const lista = [13, 23, 12, 45, 22, 48, 66, 100];
+//  Escreva um programa para verificar se um caractere é uma vogal ou consoante
+let  caracter  =  prompt ( "Digite um caracter:" ) . guarnição ( ) . toUpperCase ( );
 
-for (let i = 0; i < lista.length; i++) {
-  if (i == lista.length - 1) {
-    if (lista[i] % 2 == 0) {
-      document.write(`<strong>${lista[i]}.</strong>`);
-    }
-  } else {
-    if (lista[i] % 2 == 0) {
-      document.write(`<strong>${lista[i]}, </strong>`);
-    }
+  if  (
+    caracter  ==  "A"  ||
+    caracter  ==  "E"  ||
+    caracter  ==  "I"  ||
+    caracter  ==  "O"  ||
+    caracter  ==  "U"
+  )  {
+    document.write ( `O caracter ${ caracter } É vogal!` );
+  }  else  {
+    document.write ( `O caracter ${ caracter } É consoante!` );
   }
-}
-    
-
-
-
-let valores = [13, 23, 12, 45, 22, 48, 66, 100];
-
-  for (let i = 0; i <= valores.length; i++) {
-    if (valores[i] % 2 === 0) {
-      document.write(`<h2>${valores[i]} É PAR</h2>`);
-    }
-  }
-
 </script>

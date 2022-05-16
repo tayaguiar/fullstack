@@ -1,35 +1,12 @@
 <script>
 //Leia 5 valores reais e calcule seu somatório utilizando a instrução do while.
-//Array de valores
-let valores = [];
-  let i = 1;
-  let valorTotal = 0;
+let  contador  =  1 ;
+let  soma  =  0 ;
 
-  //Laço que percorre o array de valores
-  do {
-    valores[i] = parseFloat(prompt(`Digite o valor ${i}: `));
-    valorTotal += valores[i];
-    i++;
-  } while (i <= 5);
+  do  {
+    soma  +=  parseFloat ( prompt ( `Digite o ${ contador } valor:` ) ) ;
+    contador ++ ;
+  }  while  ( contador  <=  5 ) ;
 
-  //Output
-  document.write(`<h2>A soma dos valores digitados foram: ${valorTotal}<h2/>`);
-  // OUTPUT
-
-
-  
-
-  let contador = 1;
-  let soma = 0;
-
-  do {
-    soma += parseFloat(prompt(`Digite o ${contador}° valor :`));
-    contador++;
-  } while (contador <= 5);
-
-  document.write(`<h1>A soma dos valores é: ${soma}</h1>`);
-
-
-
-
+  document.write ( `<h1>A soma dos valores é: ${soma} </h1>` ) ;
 </script>

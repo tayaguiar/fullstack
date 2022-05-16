@@ -1,0 +1,18 @@
+<script>
+//Faça um programa, com uma função que necessite de um argumento. A função retorna o valor de caractere 'P', se seu argumento for positivo, e 'N', se seu argumento for zero ou negativo
+const  valor  =  parseInt (prompt("Digite um valor"));;
+
+  const  verificaçãoPositivoNegativo  =  ( valor )  =>  {
+    if  ( valor  >  0 )  {
+      return  "P" ;
+    }  else  if  ( valor  <=  0 )  {
+      return  "N" ;
+    }  else  {
+      return  "Valor inválido" ;
+    }
+  } ;
+
+  const  positivoNegativo  =  verificarPositivoNegativo ( valor ) ;
+
+  documento . escreva ( `<h1> ${ positivonegativo } </h1>` ) ;
+</script>

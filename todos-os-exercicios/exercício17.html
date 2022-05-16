@@ -1,10 +1,12 @@
 <script>
-    //Escrever um algoritmo para verificar se um triângulo é Equilátero, Isósceles ou Escaleno. Exemplo de entrada:50,50,60 saída Esperada: O triângulo é iosceles.
-    
-
-
-
-
-
+    //Pedrinho tem um cofrinho com muitas moedas, e deseja saber quantos reais conseguiu poupar. Faça um possível para ler a quantidade de cada tipo de moeda, e imprimir o valor total, em reais. Considere as moedas de 1, 5, 10, 25 e 50 centavos, e ainda moedas de 1 real. Não havendo moeda de um tipo, a quantidade, respectivamente, é zero.
+     let  moedaDe1Cent  =  parseFloat ( prompt ( "Quantas moedas de 1 centavo?" ) ) ;
+     let  moedaDe5Cent  =  parseFloat ( prompt ( "Quantas moedas de 5 centavos?" ) ) ;
+     let  moedaDe10Cent  =  parseFloat ( prompt ( "Quantas moedas de 10 centavos?" ) ) ;
+     let  moedaDe25Cent  =  parseFloat ( prompt ( "Quantas moedas de 25 centavos?" ) ) ;
+     let  moedaDe50Cent  =  parseFloat ( prompt ( "Quantas moedas de 50 centavos?" ) ) ;
+     let  moedaDe1real  =  parseFloat ( prompt ( "Quantas moedas de 1 real?" ) ) ;
+     let  valorTotal  =  ( moedaDe1Cent *  0.01 )  +  ( moedaDe5Cent * 0.05 )  +  ( moedaDe10Cent * 0.10 )  +  ( moedaDe25Cent * 0.25 )  +  ( moedaDe50Cent * 0.50 )  +  ( moedaDe1real * 1 ) ;
+     documento . write ( `<h1>Você juntou R$ ${ valorTotal . toFixed ( 2 ) } </h1>` ) ;
 
 </script>
