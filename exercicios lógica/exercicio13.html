@@ -1,0 +1,25 @@
+<script>
+    //Implemente um programa tomador de decisão que considere as seguintes opções para determinar se o usuário usará um fila preferencial ou um fila comum.
+    //O programa recebe como entrada a idade, Sexo e a condição especial do usuário, se houver.
+    // Exemplo de entrada: 22, mulher, grávida
+    //Saída: Fila preferencial
+    let  idade  =  parseFloat (prompt ( "Qual a sua idade: " )); ;
+    let  sexo  =  prompt ( "Qual o seu sexo ('F' ou 'M'): " ). guarnição ( ). fatia ( 0 ,  1 ). toUpperCase ( );
+    let  condicaoEspecial  =  prompt ( "Tem condição especial ('S' ou 'N'): " ). guarnição ( ). fatia ( 0 ,  1 ). toUpperCase ( ) ;
+  
+    if  ( sexo  ==  "M" )  {
+      if  ( idade  >=  60  ||  condicaoEspecial  ==  "S" )  {
+        document.write ( "<h1>Fila Preferencial</h1>" ) ;
+      }  else  {
+        documento.write ( "<h1>Sem Fila Preferencial</h1>" ) ;
+      }
+
+    }  else  if  ( sexo  ==  "F" )  {
+      if  ( idade  >=  60  ||  condicaoEspecial  ==  "S" )  {
+        document.write ( "<h1>Fila Preferencial</h1>" ) ;
+      }  else  {
+        document.write ( "<h1>Sem Fila Preferencial</h1>" ) ;
+      }
+    }
+
+</script>

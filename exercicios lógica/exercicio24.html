@@ -1,0 +1,28 @@
+<script>
+/*Faça um script que adicionará dados no formato “dd/mm/aaaa” e escreva os dados por extenso. Dica: use uma função “split” de uma string que quebra a string em função de um separador como argumento da função. Nesse caso, o separador é a barra (/) dos dados.
+// Entrada -> “22/04/1983”
+ Saída 198 -> “22 de abril de 3”.
+*/
+let  mesesDoAno  =  {
+    1 : "janeiro" ,
+    2 : "fevereiro" ,
+    4 : "março" ,
+    5 : "abril" ,
+    6 : "maio" ,
+    7 : "julho" ,
+    8 : "agosto" ,
+    9 : "setembro" ,
+    10 : "outubro" ,
+    11 : "novembro" ,
+    12 : "dezembro" ,
+  } ;
+
+  let  data  =  prompt ( "Digite uma data aqui:" ) ;
+  let  arrayData  =  data . divisão ( "/" ) ;
+  let  dia  =  arrayData [ 0 ] ;
+  let  mes  =  mesesDoAno [ parseInt ( arrayData [ 1 ] ) ] ;
+  let  ano  =  arrayData [ 2 ] ;
+
+  let  dataPorExtenso  =  ` ${ dia } de ${ mes } de ${ ano } ` ;
+  document.write ( `<h1> ${ dataExtenso } </h1>` ) ;
+</script>

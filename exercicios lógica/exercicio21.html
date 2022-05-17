@@ -1,0 +1,13 @@
+<script>
+    //Faça um programa com uma função que sabe definir se uma palavra é palíndromo ou não. A função possui um parâmetro formal: palavra. A função deve retornar “Palíndromo” quando for palíndromo e “Não é palíndromo” quando não for.
+    let  palavra  =  prompt ( "Digite uma palavra para ver se é palíndromo: " ) . paraUpperCase ( ) . guarnição ( ) ;
+    function  verificar ( palavra )  {
+        let  palindromo  =  palavra . paraUpperCase ( ) . divisão ( "" ) . reverso ( ) . juntar ( "" ) ;
+    if  ( palavra  ==  palindromo )  {
+        documento . write  ( `<h2>a palavra <u> ${ palavra } </u> é palindromo!</h2>` ) ;
+    }  else  {
+        documento . write  ( `<h2>a palavra <u> ${ palavra } </u> não é palindromo!</h2>` ) ;
+    }
+}
+verificar ( palavra ) ;
+</script>

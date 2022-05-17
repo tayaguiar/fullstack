@@ -1,0 +1,29 @@
+<script>
+    //Crie uma função que recebe um número inteiro positivo e teste para saber se ele é primo ou não. Faça uma função que recebe um inteiro ne mostra todos os primos, de 1 até n.
+    function  verificaNumeroPrimo  ( num1 ) {
+        for  ( let  i1  =  2 ;  i1  <  num1 ;  i1 ++ )
+        if  ( ( num1  %  2 )  ==  0 ) {
+            return  falso
+        }  else  {
+            return  verdadeiro
+        }
+    }
+    if  ( verificaNumeroPrimo ) {
+        console.log ( "É número primo" ) ;
+    }  else  {
+        console.log ( "Não é número primo" ) ;
+    }
+
+    function  imprimeNumerosPrimosAteN  ( num2 ) {
+        for  ( let  i2  =  2 ;  i2  <=  num2;  i2 ++)  {
+            if  ( verificaNumeroPrimo ( num2 ) ) {
+                 numerosPrimos . empurre ( i2 ) ;
+                // console.log(numerosPrimos);
+            }
+        }
+    }
+
+    let  numerosPrimos  =  [ ] ;
+    // console.log(verificaNumeroPrimo(3));
+    consola . log ( imprimeNumerosPrimosAteN ( 13 ) ) ;
+</script>
