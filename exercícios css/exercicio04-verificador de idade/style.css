@@ -1,6 +1,7 @@
 body {
-  background: blueviolet;
+  background: rgb("#a4aaac");
   font: normal 15pt Arial;
+  color: rgb(133, 18, 89);
   /* 
   font-style: normal;
   font-size: 15pt;
@@ -10,14 +11,15 @@ body {
 
 header {
   /* muda cor da fonte */
-  color: white;
+  color: rgb(139, 20, 104);
   /* muda o alinhamento do texto */
   text-align: center;
 }
 
 section {
   /* muda cor de fundo */
-  background: white;
+    
+  background: "#a4aaac";
   /* aplica arredondamento na borda */
   border-radius: 10px;
   /* aplica espaçamento interno */
@@ -27,12 +29,21 @@ section {
   /* define uma margem no eixo x automatica */
   margin: auto;
   /* define um sombreamento no elemento */
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px rgb(97, 0, 76);
+}
+div {
+  padding:12px;
+  text-align: center;
+}
+img#imagem {
+  width: 390px;
+  height: 280px;
+  border-radius: 3%;
 }
 
 footer {
   /* muda cor da fonte */
-  color: white;
+  color: rgb(145, 24, 94);
   /* muda o alinhamento do texto */
   text-align: center;
   /* aplica italico na fonte */
